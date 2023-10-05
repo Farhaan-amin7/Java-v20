@@ -1,3 +1,5 @@
+package Java.Practice;
+
 public class practice6 {
     static void multiplication(int c)
     {

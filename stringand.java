@@ -1,3 +1,5 @@
+package Java.Practice;
+
 public class stringand {
     public static void main(String[] args) {
         String str = "MyNameIsSheelaKiJawani ";

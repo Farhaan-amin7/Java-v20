@@ -1,3 +1,5 @@
+package Java.Practice;
+
 public class Varargs {
     static int IamFree(int ...x)
     {

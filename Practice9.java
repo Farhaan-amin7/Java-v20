@@ -1,7 +1,12 @@
-import java.awt.geom.Area;
+
 
 class Square{
     int side;
+    public void setSide(int s)
+    {
+        side=s;
+        System.out.println("Each side of the square is "+ this.side);
+    }
     public int Getside()
     {
        return side;
@@ -20,8 +25,9 @@ class Square{
 public class Practice9 {
     public static void main(String[] args) {
         Square first=new Square();
-        first.side=10;
-        System.out.println("Each side of the square is "+first.side);
+        first.setSide(5);
+        System.out.println(first.Getside());
+
         System.out.println(first.Area());
         System.out.println(first.Perimeter());
 

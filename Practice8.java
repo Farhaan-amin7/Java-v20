@@ -1,3 +1,5 @@
+package Java.Practice;
+
 class Employee {
     int salary;
     String Name;
