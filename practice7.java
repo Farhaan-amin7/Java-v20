@@ -1,3 +1,5 @@
+package Java.Practice;
+
 import java.util.Scanner;
 public class practice7 {
     static void PrintReverseStar()

@@ -1,3 +1,5 @@
+package Java.Practice;
+
 import java.util.Random;
 public class Practice2 {
     public static void main(String[] args) {

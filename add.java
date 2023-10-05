@@ -1,3 +1,5 @@
+package Java.Practice;
+
 import java.util.*;
 public class add {
     public static void main(String[] args) {
