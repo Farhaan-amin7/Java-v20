@@ -1,4 +1,4 @@
-package Java.Practice;
+
 
 import java.util.*;
 public class add {

@@ -1,4 +1,4 @@
-package Java.Practice;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -13,8 +13,8 @@ public class practice
         System.out.println("Enter another number ");
         float b=far.nextFloat();
         System.out.println(90.04f+b);
-	String str = far.nextString();
-	System.out.print(str);
+//	String str = far.next
+//	System.out.print(str);
 
 
 

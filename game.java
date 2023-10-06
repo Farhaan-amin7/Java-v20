@@ -1,42 +1,48 @@
-package Java.Practice;
 
 import java.util.Scanner;
 import java.util.Random;
 public class game {
     public static void main(String[] args) {
-        int choise = 0, chosen2 = 0;
+        boolean flag = true;
+        int choice = 0, chosen2 = 0;
         int max = 2, min = 0;
         int n = 1, pointcomp = 0, pointplayer = 0;
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
+
         System.out.println("**Welcome to Rock Paper Scissor Game, Please enjoy.**");
+
         System.out.println("You have to choose your Option and Both You and Computer get 3 turns each\n");
-        while (n <= 3) {
-            System.out.println("Choose 1.For Rock.\n2.For Paper\n3.For Scissor");
-            choise = sc.nextInt();
-            System.out.println("You chose " + choise);
+        while (n <= 3 && flag) {
+            System.out.println("Choose :-\n1.For Rock.\n2.For Paper\n3.For Scissor");
+            choice = sc.nextInt();
+            System.out.println("You chose " + choice);
+            System.out.println(" ");
             chosen2 = random.nextInt(3) + 1;
             System.out.println("Computer chose " + chosen2);
-            if (choise == 1) {
+            System.out.println(" ");
+            if (choice == 1) {
                 System.out.println("You chose Rocks");
-            } else if (choise == 2) {
+            } else if (choice == 2) {
                 System.out.println("You chose Paper");
-            } else if (choise == 3) {
+            } else if (choice == 3) {
                 System.out.println("You chose Scissor");
-            } else {
-                System.out.println("You chose wrong input");
+            } else if (choice != 1 || choice != 2 || choice!= 3){
+                System.out.println("You chose wrong input, Please enter valid input");
+                flag = false;
+                break;
             }
-            if(choise ==1 && chosen2==3 || choise ==2 && chosen2==1 || choise==3 && chosen2==2)
+            if(choice ==1 && chosen2==3 || choice ==2 && chosen2==1 || choice==3 && chosen2==2)
             {
-                System.out.println("You got it!!!");
+                System.out.println("You Won. You got it!!!");
                 pointplayer++;
             }
-            else if (chosen2==1 && choise==3 || chosen2==2 && choise ==1 ||chosen2==3 && choise==2 )
+            else if (chosen2==1 && choice==3 || chosen2==2 && choice ==1 ||chosen2==3 && choice==2 )
             {
-                System.out.println("Computer got it!!!");
+                System.out.println("Computer Won. Computer got it!!!");
                 pointcomp++;
             }
-             else if (choise == chosen2)
+             else if (choice == chosen2)
              {
                 System.out.println("Its a draw, You both get a point");
                 pointcomp++;
@@ -49,7 +55,7 @@ public class game {
 
 
         if (pointcomp > pointplayer) {
-            System.out.println("Computer have WON!!!");
+            System.out.println("Computer have WON the Game!!!, better luck next time.");
         }
         else if(pointplayer>pointcomp) {
             System.out.println("Congratulations, You have won!!!");
@@ -59,7 +65,3 @@ public class game {
 
 
     }
-
-
-
-
