@@ -1,10 +1,10 @@
 /*
-Player computer
-player
-points
-who won
+   Player computer
+   player
+   points
+   who won
 -- what is the outcome of the input of the players.
---what did the computer and the player chose
+-- what did the computer and the player chose
 -- is it a draw?
 -- show the points after each play
 */
