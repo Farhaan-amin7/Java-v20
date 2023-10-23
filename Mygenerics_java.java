@@ -4,10 +4,10 @@ class MereGenerics<m2,l1>
 {
     int val=4454;
     private m2 M2;
-    private l1 L1;
+    private  l1 L1;
 
     public void setL1(l1 l1) {
-        L1 = l1;
+         L1 = l1;
     }
 
     public void setVal(int val) {
@@ -40,7 +40,7 @@ class MereGenerics<m2,l1>
 public class Mygenerics_java {
     public static void main(String[] args) {
 //        ArrayList<String> hey =new ArrayList<>();
-        MereGenerics<String,Integer> Sup =new MereGenerics<>(254,"This is an object with a string",25524);
+        MereGenerics<String,Integer> Sup =new MereGenerics<>(254,"This is an object with a string",544);
         String i=Sup.getM2();
         int j=Sup.getL1();
         System.out.println(j);
