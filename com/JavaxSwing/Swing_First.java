@@ -23,7 +23,7 @@ public class Swing_First {
 
 
 
-        ImageIcon image = new ImageIcon(("logo.png"));
+        ImageIcon image = new ImageIcon(("D:\\java-programing\\java-programing\\src\\com\\JavaxSwing\\logo.png"));
         jf.setIconImage(image.getImage());
         jf.getContentPane().setBackground(new Color(14,12,69));
         // This will change icon of the frame

@@ -1,4 +1,4 @@
-package Java.Practice;
+
 
 import java.util.Scanner;
 public class arrays1 {
@@ -15,7 +15,7 @@ public class arrays1 {
 //            System.out.println(marks[i]);
 //        }
 //        Now by using for-each loop.
-        for (int what/*Dosent matter what we write instead of element it will accept and print.*/:marks) {
+        for (int what/*Dosen't matter what we write instead of element it will accept and print.*/:marks) {
             System.out.println(what);
         }
     }
