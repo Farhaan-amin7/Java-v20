@@ -12,12 +12,6 @@ public class MovingImage extends JFrame{
         this.setLocationRelativeTo(null);
         this.add(panel);
 
-
-
-
-
-
-
         this.setVisible(true);
 
 
