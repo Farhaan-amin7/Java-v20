@@ -53,9 +53,6 @@ public class Tik_Tac_Toe implements ActionListener {
 
         FirstTurn();
 
-
-
-
     }
 
     @Override
