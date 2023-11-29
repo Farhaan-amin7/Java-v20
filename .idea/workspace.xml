@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a25bb35-5561-4a24-93b8-8349503ada65" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/Java/Practice/Practice_Implement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism_Practice17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-09-2023_09_44_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-09-2023_09_44__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src" beforeDir="false" afterPath="$PROJECT_DIR$/src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/add.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/java-programing/java-programing/src/Java/Practice",
+    "last_opened_file_path": "D:/java-programing/java-programing",
     "onboarding.tips.debug.path": "D:/java-programing/java-programing/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
