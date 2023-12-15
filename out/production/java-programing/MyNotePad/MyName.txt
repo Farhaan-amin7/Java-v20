@@ -1,0 +1,3 @@
+This is my test file that will be opened in the MyNotePad.
+This is just a test so that i can open files from my notepad.
+Alright let's see what will happen.
